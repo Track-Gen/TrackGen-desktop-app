@@ -234,7 +234,7 @@ def hurdat():
 				}
 			)
 
-	make_map(parsed, "small").save("tempFile.png")
+	make_map(parsed, "medium").save("tempFile.png")
 	return send_file("tempFile.png")
 
 
@@ -255,7 +255,7 @@ def atcf():
 			}
 		)
 
-	make_map(parsed, "small").save("tempFile.png")
+	make_map(parsed, "medium").save("tempFile.png")
 	return send_file("tempFile.png")
 
 
@@ -277,7 +277,7 @@ def ibtracs():
 				}
 			)
 
-	make_map(parsed, "small").save("tempFile.png")
+	make_map(parsed, "medium").save("tempFile.png")
 	return send_file("tempFile.png")
 
 
@@ -307,7 +307,7 @@ def rsmc():
 				}
 			)
 
-	make_map(parsed, "small").save("tempFile.png")
+	make_map(parsed, "medium").save("tempFile.png")
 	return send_file("tempFile.png")
 
 
