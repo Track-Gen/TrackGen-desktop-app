@@ -207,11 +207,11 @@ select, button {
 	gap: 1vw;
 }
 
-.generate, .download {
+.generate {
 	margin-top: 2.25vh;
 	width: 100%;
 	font-size: 4vh;
-	padding: 2.25vh 0;
+	padding: 1.85vh 0;
 	text-align: center;
 	border: none;
 	border-radius: 15px;
@@ -221,26 +221,19 @@ select, button {
 	transition: all 0.3s;
 }
 
-.generate:hover, .download:hover {
+.generate:hover {
 	background-color: var(--foreground-1);
 	color: #fff;
 	cursor: pointer;
 }
 
-.generate span, .download span {
+.generate span {
 	vertical-align: middle;
-}
-
-.download {
-	position: fixed;
-	bottom: 50px;
-	width: 20%;
-	left: 40%;
 }
 
 
 #page2-content {
-	height: 100%;
+	height: 90%;
 	width: 100%;
 	display: grid;
 	grid-template-rows: 4fr 1fr;
@@ -388,4 +381,18 @@ select, button {
 	#headers h3 {
 		font-size: 2vh;
 	}
+}
+
+a:last-of-type {
+	display: none;
+}
+
+#accessible-container {
+	color: var(--foreground-1);
+	font-size: 20px;
+}
+
+#accessible-container * {
+	vertical-align: middle;
+	margin-left: 5px;
 }
